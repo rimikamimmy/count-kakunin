@@ -14,6 +14,8 @@
 		113A1E5320E87D480068127A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113A1E5120E87D480068127A /* LaunchScreen.storyboard */; };
 		113A1E5E20E87D490068127A /* countTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A1E5D20E87D490068127A /* countTests.swift */; };
 		113A1E6920E87D490068127A /* countUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A1E6820E87D490068127A /* countUITests.swift */; };
+		113A1E7720E87FF00068127A /* fabian-blank-78637-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113A1E7620E87FF00068127A /* fabian-blank-78637-unsplash.jpg */; };
+		113A1E7920ECA9370068127A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 113A1E7820ECA9370068127A /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		113A1E6420E87D490068127A /* countUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113A1E6820E87D490068127A /* countUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countUITests.swift; sourceTree = "<group>"; };
 		113A1E6A20E87D490068127A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113A1E7620E87FF00068127A /* fabian-blank-78637-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fabian-blank-78637-unsplash.jpg"; path = "../../../Downloads/fabian-blank-78637-unsplash.jpg"; sourceTree = "<group>"; };
+		113A1E7820ECA9370068127A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		113A1E4720E87D450068127A /* count */ = {
 			isa = PBXGroup;
 			children = (
+				113A1E7820ECA9370068127A /* icon.png */,
 				113A1E4820E87D450068127A /* AppDelegate.swift */,
 				113A1E4A20E87D450068127A /* ViewController.swift */,
 				113A1E4C20E87D450068127A /* Main.storyboard */,
+				113A1E7620E87FF00068127A /* fabian-blank-78637-unsplash.jpg */,
 				113A1E4F20E87D480068127A /* Assets.xcassets */,
 				113A1E5120E87D480068127A /* LaunchScreen.storyboard */,
 				113A1E5420E87D480068127A /* Info.plist */,
@@ -231,7 +237,9 @@
 			files = (
 				113A1E5320E87D480068127A /* LaunchScreen.storyboard in Resources */,
 				113A1E5020E87D480068127A /* Assets.xcassets in Resources */,
+				113A1E7920ECA9370068127A /* icon.png in Resources */,
 				113A1E4E20E87D450068127A /* Main.storyboard in Resources */,
+				113A1E7720E87FF00068127A /* fabian-blank-78637-unsplash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
